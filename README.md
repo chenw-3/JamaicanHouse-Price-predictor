@@ -6,7 +6,7 @@ Price Prediction Model
 This project will be about predicting Jamaican prices based on its features. My mother, a Reat Estate Agent, often gives her own price predictions of what their property might be worth and a good starting price to list, given the market. I would like to develop a web app at first then eventually ship it to a mobile app, that way I can learn and practice more skills (for funsies). 
 
 ### Steps to completing this project:
-1. Scrape property listings from websites (mainly houses and townhouses for now):
+1. Gather property listings from Realtor Association of Jamaica's website. (Mainly houses and townhouses for now):
     <ul>
     <li>To get started, I downloaded listings from RAJ's website. I am interested in the location, no. of bedsrooms, no. of bathrooms and the sqft of each property. The listings info was stored in a csv file and opened in Google Sheets. I did some initial data cleaning by encoding the regions based on their locations in Kingston & St.Andrew. Then I used Python to prep the data for modelling. </li>
     </ul>
@@ -20,5 +20,3 @@ This project will be about predicting Jamaican prices based on its features. My 
     <ul>
     <li>To be able to create a web app from the model, I will need to learn a web dev framework. I'll be using a Python framework because that is the main language I use. Once I have created the web app, I will then learn how to deploy it for publc use!</li>
     </ul>
-
-** I am still working on this program because it is a skill I would like to have under my belt but I was able to bypass this by just downloading the listings in a csv file. 
