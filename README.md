@@ -1,4 +1,4 @@
-# House-Price-predictior
+# House-Price-predictor
 
 Price Prediction Model
 
