@@ -21,4 +21,4 @@ This project will be about predicting Jamaican prices based on its features. My 
     <li>To be able to create a web app from the model, I will need to learn a web dev framework. I'll be using a Python framework because that is the main language I use. Once I have created the web app, I will then learn how to deploy it for publc use!</li>
     </ul>
 
-** I am still working on this program because it is a skill I would like to have under my belt but I was able to bypass this by just downlaoding the listings in a csv file. 
+** I am still working on this program because it is a skill I would like to have under my belt but I was able to bypass this by just downloading the listings in a csv file. 
