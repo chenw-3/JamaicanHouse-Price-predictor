@@ -8,7 +8,7 @@ This project will be about predicting Jamaican prices based on its features. My 
 ### Steps to completing this project:
 1. Scrape property listings from websites (mainly houses and townhouses for now):
     <ul>
-    <li>To get the part started, I'll have to write a program that will scrape data from RAJ's website of listings. I'll be using Beautiful Soup to get the location, no. of bedsrooms, no. of bathrooms and the sqft of each property.** Once I have the data, I will proceed to apply Exploratory Data Analysis (EDA) to my data to find any correlations amongst the variables. </li>
+    <li>To get started, I downloaded listings from RAJ's website. I am interested in the location, no. of bedsrooms, no. of bathrooms and the sqft of each property. The listings info was stored in a csv file and opened in Google Sheets. I did some initial data cleaning by encoding the regions based on their locations in Kingston & St.Andrew. Then I used Python to prep the data for modelling. </li>
     </ul>
     
 2. Create a ML model to do the predicting
