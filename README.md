@@ -3,7 +3,7 @@
 Price Prediction Model
 
 ### Intro:
-This project will be about predicting Jamaican prices based on its features. My mother, a Reat Estate Agent, often gives her own price predictions of what their property might be worth and a good starting price to list, given the market. I would like to develop a web app at first then eventually ship it to a mobile app, that way I can learn and practice more skills (for funsies). 
+This project will be about predicting Jamaican house prices based on their features. My mother, a Reat Estate Agent, often gives her own price predictions of what their property might be worth and a good starting price to list, given the market. I would like to develop a web app at first then eventually ship it to a mobile app, that way I can learn and practice more skills (for funsies). 
 
 ### Steps to completing this project:
 1. Gather property listings from Realtor Association of Jamaica's website. (Mainly houses and townhouses for now):
