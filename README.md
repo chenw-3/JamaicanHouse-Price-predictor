@@ -8,7 +8,8 @@ This project will be about predicting Jamaican house prices based on their featu
 ### Steps to completing this project:
 1. Gather property listings from Realtor Association of Jamaica's website. (Mainly houses and townhouses for now):
     <ul>
-    <li>To get started, I downloaded listings from RAJ's website. I am interested in the location, no. of bedsrooms, no. of bathrooms and the sqft of each property. The listings info was stored in a csv file and opened in Google Sheets. I did some initial data cleaning by encoding the regions based on their locations in Kingston & St.Andrew. Then I used Python to prep the data for modelling. </li>
+    <li>To get started, I downloaded listings from RAJ's website. I am interested in the location, no. of bedrooms, no. of bathrooms and the sqft of each property. The listings info was stored in a csv file and opened in Google Sheets. I did some initial data cleaning by encoding the regions based on their locations in Kingston & St.Andrew. Then I used Python to prep the data for modelling. 
+   </li>
     </ul>
     
 2. Create a ML model to do the predicting
