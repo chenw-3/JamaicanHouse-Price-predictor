@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import pickle
 import string
+import sklearn
 
 #load model:
 model = pickle.load(open('notebooks/price_model.pkl', 'rb'))
