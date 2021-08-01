@@ -5,7 +5,7 @@ import pickle
 import string
 
 #load model:
-model = pickle.load(open('price_model.pickle', 'rb'))
+model = open('price_model.pickle', 'rb')
 
 def main():
     # Title
