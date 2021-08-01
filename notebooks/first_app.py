@@ -32,7 +32,7 @@ def main():
     inputs = [[beds, baths, size, location]]
 
     if st.button(label='Submit'): #button
-        result = model.predict(inputs)
+        result = predictor.predict(inputs)
         updated_results = result.flatten().astype(int)
         st.success('Your house could be listed at JMD{} million'.format(updated_results))
 
