@@ -5,7 +5,7 @@ import pickle
 import string
 
 #load model:
-model = st.file_uploader("Upload file", type='pickle')
+model = pickle.load(open('price_model.pickle', 'rb'))
 
 def main():
     # Title
