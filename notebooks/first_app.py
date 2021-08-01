@@ -5,8 +5,7 @@ import pickle
 import string
 
 #load model:
-model = open('price_model.pkl', 'rb')
-classifier = pickle.load(model)
+model = st.file_uploader("Upload file", type=['csv'])
 
 def main():
     # Title
@@ -32,7 +31,7 @@ def main():
     inputs = [[beds, baths, size, location]]
 
     if st.button(label='Submit'): #button
-        result = classifier.predict(inputs)
+        result = model.predict(inputs)
         updated_results = result.flatten().astype(int)
         st.success('Your house could be listed at JMD{} million'.format(updated_results))
 
