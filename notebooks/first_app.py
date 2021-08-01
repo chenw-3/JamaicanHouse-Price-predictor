@@ -5,7 +5,8 @@ import pickle
 import string
 
 #load model:
-model = pickle.load(open('notebooks\price_model.pkl', 'rb'))
+model = open('notebooks\price_model.pkl', 'rb')
+predictor = pickle.load(model)
 
 def main():
     # Title
