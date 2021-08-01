@@ -5,7 +5,7 @@ import pickle
 import string
 
 #load model:
-model = st.file_uploader("Upload file", type=['csv'])
+model = st.file_uploader("Upload file", type=['pkl'])
 
 def main():
     # Title
