@@ -5,9 +5,8 @@ import pickle
 import string
 
 #load model:
-model = 'price_model.pkl'
-lm = pickle.load(open(model, 'rb'))
-
+with open("price_model.pkl", 'rb') as pfile:  
+            model=pickle.load(pfile)
 def main():
     # Title
     st.title('Hi there! Welcome to the Jamaican House Price Predictor')
@@ -32,7 +31,7 @@ def main():
     inputs = [[beds, baths, size, location]]
 
     if st.button(label='Submit'): #button
-        result = lm.predict(inputs)
+        result = model.predict(inputs)
         updated_results = result.flatten().astype(int)
         st.success('Your house could be listed at JMD{} million'.format(updated_results))
 
