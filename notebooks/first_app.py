@@ -5,7 +5,7 @@ import pickle
 import string
 
 #load model:
-with open('/Users/willi/Onedrive/esktop/projects/price_model.pkl', 'rb') as pfile:  
+with open('/Users/willi/Onedrive/Desktop/projects/price_model.pkl', 'rb') as pfile:  
             model=pickle.load(pfile)
 def main():
     # Title
