@@ -5,8 +5,8 @@ import pickle
 import string
 
 #load model:
-model = open('price_model.pkl', 'rb')
-predictor = pickle.load(model)
+model = 'price_model.pkl'
+lm = pickle.load(open(model, 'rb'))
 
 def main():
     # Title
@@ -32,7 +32,7 @@ def main():
     inputs = [[beds, baths, size, location]]
 
     if st.button(label='Submit'): #button
-        result = predictor.predict(inputs)
+        result = lm.predict(inputs)
         updated_results = result.flatten().astype(int)
         st.success('Your house could be listed at JMD{} million'.format(updated_results))
 
