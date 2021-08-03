@@ -3,9 +3,12 @@ import pandas as pd
 import pickle
 import string
 from sklearn.ensemble import RandomForestRegressor
+from pathlib import Path
 
 #load model:
-model = pickle.load(open('price_model.pickle', 'rb'))
+fnoFile = Path(file).parents[1] / 'price_model.pickle' #replace the file name in quotes.
+fno=pd.read_csv(fnoFile)
+#model = pickle.load(open('price_model.pickle', 'rb'))
 
 def main():
     # Title
