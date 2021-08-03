@@ -8,7 +8,7 @@ from pathlib import Path
 #load model:
 file='price_model.pkl'
 fnoFile = Path(file).parents[1] / 'price_model.pkl' #replace the file name in quotes.
-fno=pd.read_csv(fnoFile)
+fno=pd.read_pickle(fnoFile)
 #model = pickle.load(open('price_model.pickle', 'rb'))
 
 def main():
