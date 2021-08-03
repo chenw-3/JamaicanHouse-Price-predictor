@@ -6,7 +6,8 @@ from sklearn.ensemble import RandomForestRegressor
 from pathlib import Path
 
 #load model:
-fnoFile = Path(file).parents[1] / 'price_model.pickle' #replace the file name in quotes.
+file='price_model.pkl'
+fnoFile = Path(file).parents[1] / 'price_model.pkl' #replace the file name in quotes.
 fno=pd.read_csv(fnoFile)
 #model = pickle.load(open('price_model.pickle', 'rb'))
 
