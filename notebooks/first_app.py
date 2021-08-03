@@ -5,8 +5,8 @@ import pickle
 import string
 
 #load model:
-with open('C:\Users\willi\OneDrive\Desktop\projects\JamaicanHouse-Price-predictor\notebooks\price_model.pkl', 'rb') as pfile:  
-            model=pickle.load(pfile)
+model = pickle.load(open('price_model.pickle', 'rb'))
+
 def main():
     # Title
     st.title('Hi there! Welcome to the Jamaican House Price Predictor')
