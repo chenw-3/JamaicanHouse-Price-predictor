@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 from pathlib import Path
 
 #load model:
-model = pickle.load(open('price_model.pickle', 'rb'))
+model = pickle.load(open('price_model.pkl', 'rb'))
 
 def main():
     # Title
