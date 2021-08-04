@@ -19,5 +19,5 @@ This project is about predicting Jamaican house prices based on their features. 
 
 3. Learn a framework to create the web app
     <ul>
-    <li>To be able to create a web app from the model, I will need to learn a web dev framework. I'll be using Streamlit for a demo but I plan on learning Flask for the future. Once I have created the web app, I will then learn how to deploy it for publc use!</li>
+    <li>The app has been deployed using Streamlit! There's still work that needs to be done but I am so proud of what I have been able to achieve thus far!!!</li>
     </ul>
