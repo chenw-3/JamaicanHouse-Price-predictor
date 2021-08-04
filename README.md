@@ -1,3 +1,5 @@
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/chenw-3/jamaicanhouse-price-predictor/main/first_app.py
+
 # House-Price-prediction
 
 Price Prediction Model
